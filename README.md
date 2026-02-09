@@ -1,4 +1,5 @@
-# Automated Disk Sanitiser (Duplicate File Removal System)
+# Automated Disk Sanitiser (
+Duplicate File Removal System)
 
 A Python automation tool that scans directories, detects duplicate files using MD5 checksum hashing, and safely removes redundant copies to optimize disk space.
 
