@@ -124,4 +124,3 @@ Enterprise file management
 
 🙌 Author
 Ritesh Kurambhatti
-Developed as an automation learning project demonstrating practical system-level programming in Python.
