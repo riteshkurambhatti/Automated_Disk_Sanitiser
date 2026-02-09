@@ -70,7 +70,6 @@ cd Automated_Disk_Sanitiser
 
 ---
 
-
 ▶️ Usage
 
 Run the script:
