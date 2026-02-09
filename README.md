@@ -60,11 +60,68 @@ This project combines multiple important automation and system programming conce
 
 ---
 
-## 📥 Installation
+▶️ Usage
 
-Clone the repository:
+Run the script:
 
-```bash
-git clone https://github.com/riteshkurambhatti/Automated_Disk_Sanitiser.git
-cd Automated_Disk_Sanitiser
+python Automated_Disk_Sanitiser.py
+
+Provide the directory path when prompted. The script will:
+
+1.Scan all files
+
+2.Generate MD5 hashes
+
+3.Identify duplicate files
+
+4.Remove duplicates safely
+
 ---
+
+⚙️ How It Works
+
+1.Directory Traversal
+The script walks through directories using os.walk().
+
+2.Binary File Reading
+Each file is opened in binary mode to ensure accurate hashing.
+
+3.MD5 Hash Generation
+A unique MD5 hash is generated for every file.
+
+4.Duplicate Detection
+Files with identical hashes are considered duplicates.
+
+5.Dictionary Storage
+Hashes are stored as keys and file paths as values.
+
+6.Safe Deletion
+Only duplicate copies are deleted, preserving one original file.
+
+---
+
+⚠️ Important Note
+
+Ensure you provide the correct directory path.
+
+Deleted files cannot be recovered.
+
+Recommended to test on a sample folder first.
+
+---
+
+💡 Real-World Applications
+
+Server storage maintenance
+
+Backup system cleanup
+
+Personal system disk optimization
+
+Enterprise file management
+
+---
+
+🙌 Author
+Ritesh Kurambhatti
+Developed as an automation learning project demonstrating practical system-level programming in Python.
